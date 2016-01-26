@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.crazyhitty.chdev.ks.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_avg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/my_nanodegree_apps"
+            android:textSize="@dimen/text_size_big" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_avg" />
+
+        <Button
+            android:id="@+id/button_spotify_streamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify_streamer"
+            android:theme="@style/ButtonTheme" />
+
+        <Button
+            android:id="@+id/button_scores_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scores_app"
+            android:theme="@style/ButtonTheme" />
+
+        <Button
+            android:id="@+id/button_library_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library_app"
+            android:theme="@style/ButtonTheme" />
+
+        <Button
+            android:id="@+id/button_build_it_bigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/build_it_bigger"
+            android:theme="@style/ButtonTheme" />
+
+        <Button
+            android:id="@+id/button_xyz_reader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xyz_reader"
+            android:theme="@style/ButtonTheme" />
+
+        <Button
+            android:id="@+id/button_capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capstone_app"
+            android:theme="@style/ButtonTheme.Red" />
+
+    </LinearLayout>
+
+</RelativeLayout>
